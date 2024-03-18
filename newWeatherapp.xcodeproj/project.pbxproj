@@ -13,6 +13,8 @@
 		FCEED81E2BA3374C007C23E2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FCEED81D2BA3374C007C23E2 /* Base */; };
 		FCEED8202BA3374D007C23E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEED81F2BA3374D007C23E2 /* Assets.xcassets */; };
 		FCEED8232BA3374D007C23E2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FCEED8222BA3374D007C23E2 /* Base */; };
+		FCFE8E742BA7BF97007AEAF9 /* Minimal Wallpaper.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCFE8E722BA7BF97007AEAF9 /* Minimal Wallpaper.jpeg */; };
+		FCFE8E752BA7BF97007AEAF9 /* Apple _Weather_ App Icon - iOS 13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCFE8E732BA7BF97007AEAF9 /* Apple _Weather_ App Icon - iOS 13.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FCEED81F2BA3374D007C23E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCEED8222BA3374D007C23E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCEED8242BA3374D007C23E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFE8E722BA7BF97007AEAF9 /* Minimal Wallpaper.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Minimal Wallpaper.jpeg"; path = "../../../../../Downloads/Minimal Wallpaper.jpeg"; sourceTree = "<group>"; };
+		FCFE8E732BA7BF97007AEAF9 /* Apple _Weather_ App Icon - iOS 13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Apple _Weather_ App Icon - iOS 13.jpeg"; path = "../../../../../Downloads/Apple _Weather_ App Icon - iOS 13.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				FCEED81A2BA3374C007C23E2 /* ViewController.swift */,
 				FCEED81C2BA3374C007C23E2 /* Main.storyboard */,
 				FCEED81F2BA3374D007C23E2 /* Assets.xcassets */,
+				FCFE8E732BA7BF97007AEAF9 /* Apple _Weather_ App Icon - iOS 13.jpeg */,
+				FCFE8E722BA7BF97007AEAF9 /* Minimal Wallpaper.jpeg */,
 				FCEED8212BA3374D007C23E2 /* LaunchScreen.storyboard */,
 				FCEED8242BA3374D007C23E2 /* Info.plist */,
 			);
@@ -125,9 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFE8E752BA7BF97007AEAF9 /* Apple _Weather_ App Icon - iOS 13.jpeg in Resources */,
 				FCEED8202BA3374D007C23E2 /* Assets.xcassets in Resources */,
 				FCEED8232BA3374D007C23E2 /* Base in Resources */,
 				FCEED81E2BA3374C007C23E2 /* Base in Resources */,
+				FCFE8E742BA7BF97007AEAF9 /* Minimal Wallpaper.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5SA3HRBYK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = newWeatherapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +308,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5SA3HRBYK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = newWeatherapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +337,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
